@@ -84,9 +84,8 @@ hash.each do |k,v|
 end
 end
 end
-
-organize_schools(inHash)
 inHash = {"flatiron school bk" => {:location=>"NYC"},
  "flatiron school"=>{:location=>"NYC"},
  "dev boot camp"=>{:location=>"SF"},
  "dev boot camp chicago"=>{:location=>"Chicago"}}
+organize_schools(inHash)
