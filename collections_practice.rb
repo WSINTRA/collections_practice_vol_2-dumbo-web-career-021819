@@ -79,11 +79,13 @@ newHash ={}
 hash.each do |k,v|
   binding.pry
   v.each do |location,city|
+  puts "#{city} NOTE"
   newHash[city]
 end
 end
 end
 
+organize_schools(inHash)
 inHash = {"flatiron school bk"=>{:location=>"NYC"}
  "flatiron school"=>{:location=>"NYC"},
  "dev boot camp"=>{:location=>"SF"},
