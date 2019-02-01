@@ -82,6 +82,7 @@ hash.each do |k,v|
   puts "#{city} NOTE and #{k}"
   newHash[city] = []
   newHash[city] << k
+  puts "First round #{k}"
 end
 end
 puts newHash
