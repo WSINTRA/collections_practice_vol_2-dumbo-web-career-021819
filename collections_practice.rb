@@ -80,6 +80,10 @@ hash.each do |k,v|
   v.each do |location,city|
   puts "#{city} NOTED  #{k}"
   newHash[city] = []
+end
+end
+hash.each do |k,v|
+  v.each do |location,city|
   newHash[city].push(k)
   puts "First round #{newHash} #{k}"
 end
