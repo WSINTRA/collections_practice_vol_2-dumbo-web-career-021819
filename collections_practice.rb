@@ -83,3 +83,8 @@ hash.each do |k,v|
 end
 end
 end
+
+inHash = {"flatiron school bk"=>{:location=>"NYC"}
+ "flatiron school"=>{:location=>"NYC"},
+ "dev boot camp"=>{:location=>"SF"},
+ "dev boot camp chicago"=>{:location=>"Chicago"}}
