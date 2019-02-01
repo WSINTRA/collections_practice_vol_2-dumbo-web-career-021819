@@ -80,7 +80,8 @@ hash.each do |k,v|
   #binding.pry
   v.each do |location,city|
   puts "#{city} NOTE and #{k}"
-  newHash[city] = [k]
+  newHash[city] = []
+  newHash[city] << k
 end
 end
 puts newHash
