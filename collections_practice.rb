@@ -75,5 +75,8 @@ return_array
 end
 
 def organize_schools(hash)
-
+newHash ={}
+hash.each do |k,v|
+  binding.pry
+end
 end
