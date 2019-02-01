@@ -77,12 +77,11 @@ end
 def organize_schools(hash)
 newHash ={}
 hash.each do |k,v|
-  #binding.pry
   v.each do |location,city|
-  puts "#{city} NOTE and #{k}"
+  puts "#{city} NOTED  #{k}"
   newHash[city] = []
   newHash[city].push(k)
-  puts "First round #{k}"
+  puts "First round #{newHash} #{k}"
 end
 end
 puts newHash
