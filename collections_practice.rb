@@ -81,7 +81,7 @@ hash.each do |k,v|
   v.each do |location,city|
   puts "#{city} NOTE and #{k}"
   newHash[city] = []
-  newHash[city].unshift(k)
+  newHash[city].pop(k)
   puts "First round #{k}"
 end
 end
