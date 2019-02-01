@@ -75,5 +75,5 @@ return_array
 end
 
 def organize_schools(hash)
-  binding.pry
+
 end
