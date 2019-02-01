@@ -83,6 +83,7 @@ hash.each do |k,v|
   newHash[city]
 end
 end
+puts newHash
 end
 inHash = {"flatiron school bk" => {:location=>"NYC"},
  "flatiron school"=>{:location=>"NYC"},
