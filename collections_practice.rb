@@ -78,20 +78,13 @@ def organize_schools(hash)
 newHash ={}
 hash.each do |k,v|
   v.each do |location,city|
-  puts "#{city} NOTED  #{k}"
   newHash[city] = []
 end
 end
 hash.each do |k,v|
   v.each do |location,city|
   newHash[city].push(k)
-  puts "First round #{newHash} #{k}"
 end
 end
-puts newHash
+newHash
 end
-inHash = {"flatiron school bk" => {:location=>"NYC"},
- "flatiron school"=>{:location=>"NYC"},
- "dev boot camp"=>{:location=>"SF"},
- "dev boot camp chicago"=>{:location=>"Chicago"}}
-organize_schools(inHash)
