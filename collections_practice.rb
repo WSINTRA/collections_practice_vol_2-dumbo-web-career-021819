@@ -77,7 +77,7 @@ end
 def organize_schools(hash)
 newHash ={}
 hash.each do |k,v|
-  binding.pry
+  #binding.pry
   v.each do |location,city|
   puts "#{city} NOTE"
   newHash[city]
