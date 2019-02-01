@@ -78,5 +78,8 @@ def organize_schools(hash)
 newHash ={}
 hash.each do |k,v|
   binding.pry
+  v.each do |location,city|
+  newHash[city]
+end
 end
 end
